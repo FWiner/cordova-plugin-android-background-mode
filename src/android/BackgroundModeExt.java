@@ -233,11 +233,12 @@ public class BackgroundModeExt extends CordovaPlugin {
     private void openBatterySettings()
     {
         if (SDK_INT < M)
-            return;
+        return;
 
-        Activity activity = cordova.getActivity();
-        Intent intent = new Intent(ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
-
+        Activity activity  = cordova.getActivity();
+        String pkgName     = activity.getPackageName();
+        Intent intent = new Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+        intent.setData(Uri.parse("package:"+pkgName));
         cordova.getActivity().startActivity(intent);
     }
 

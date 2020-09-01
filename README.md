@@ -6,7 +6,7 @@ The plugin can be installed via [Cordova-CLI][CLI] and will be publicly availabl
 
 Execute from the projects root folder:
 
-    $ cordova plugin add https://bitbucket.org/TheBosZ/cordova-plugin-run-in-background
+    $ cordova plugin add https://github.com/FWiner/cordova-plugin-android-background-mode
 
 
 ## Usage
