@@ -216,7 +216,8 @@ __Note:__ Calling the method led to increased resource and power consumption.
 
 This software is released under the Apache 2.0 License.
 
-Made with :yum: from Leipzig
-Modify with FWinner
+Made with :yum: from Leipzig.
+
+Modify with FWinner.
 
 
