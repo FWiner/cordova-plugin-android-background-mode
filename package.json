@@ -5,9 +5,7 @@
   "cordova": {
     "id": "cordova-plugin-background-mode",
     "platforms": [
-      "ios",
-      "android",
-      "browser"
+      "android"
     ]
   },
   "repository": {
