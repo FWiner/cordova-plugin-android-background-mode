@@ -2,7 +2,6 @@ This is a fork of [a great plugin by katzer](https://github.com/katzer/cordova-p
 
 
 ## Installation
-The plugin can be installed via [Cordova-CLI][CLI] and will be publicly available on [NPM][npm] eventually.
 
 Execute from the projects root folder:
 
