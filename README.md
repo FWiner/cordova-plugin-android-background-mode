@@ -1,8 +1,9 @@
 # Update 2020-11-09
 
-+ Adding js-api to open application's background mode manage system.
++ [Adding js-api to open application's background mode manage system.](update_11_09)
 
 
+# cordova-plugin-android-background-mode
 This is a fork of [a great plugin by katzer](https://github.com/katzer/cordova-plugin-background-mode/). It aims to keep up-to-date with Android changes while also providing more features.
 
 
@@ -214,6 +215,15 @@ __Note:__ Calling the method led to increased resource and power consumption.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+## update_11_09
+
+Adding js-api to open application's background mode manage system. Include huawei,xiaomi,samsung,oppo,vivo and so on.
+
+```
+cordova.plugins.backgroundMode.openAppStartSettings();
+```
 
 
 ## License
