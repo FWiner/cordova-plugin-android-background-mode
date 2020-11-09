@@ -1,6 +1,6 @@
 # Update 2020-11-09
 
-+ [Adding js-api to open application's background mode manage system.](update_11_09)
++ [Adding js-api to open application's app start setting.](update_11_09)
 
 
 # cordova-plugin-android-background-mode
@@ -219,7 +219,7 @@ __Note:__ Calling the method led to increased resource and power consumption.
 
 ## update_11_09
 
-Adding js-api to open application's background mode manage system. Include huawei,xiaomi,samsung,oppo,vivo and so on.
+Adding js-api to open application's background mode manage system. Including all possible intents to present the app start settings(huawei,xiaomi,samsung,oppo,vivo and so on).
 
 ```
 cordova.plugins.backgroundMode.openAppStartSettings();
