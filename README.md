@@ -1,3 +1,8 @@
+# Update 2020-11-09
+
++ Adding js-api to open application's background mode manage system.
+
+
 This is a fork of [a great plugin by katzer](https://github.com/katzer/cordova-plugin-background-mode/). It aims to keep up-to-date with Android changes while also providing more features.
 
 
