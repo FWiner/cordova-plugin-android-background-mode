@@ -1,6 +1,6 @@
 # Update 2020-11-09
 
-+ [Adding js-api to open application's app start setting.](update_11_09)
++ [Adding js-api to open application's app start setting.](#update_11_09)
 
 
 # cordova-plugin-android-background-mode
