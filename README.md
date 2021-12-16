@@ -1,3 +1,8 @@
+# 说明
+
+Android 后台保活相关cordova插件，在原项目上做了一些改动和改了一些BUG，适应国内的大部分机型
+
+
 # Update Log 2020-11-09
 
 + [Adding js-api to open application's app start setting.](#update_11_09)
